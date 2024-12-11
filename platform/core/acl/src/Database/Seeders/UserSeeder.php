@@ -23,9 +23,9 @@ class UserSeeder extends BaseSeeder
         $faker = $this->fake();
 
         $superuser = $this->createUser([
-            'first_name' => $faker->firstName(),
-            'last_name' => $faker->lastName(),
-            'email' => $faker->companyEmail(),
+            'first_name' => 'Pham',
+            'last_name' => 'Tuns',
+            'email' => 'theloneranger241@gmail.com',
             'username' => config('core.base.general.demo.account.username'),
             'password' => config('core.base.general.demo.account.password'),
             'super_user' => 1,
